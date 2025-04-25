@@ -8,5 +8,21 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 20%;
 }
+header{
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative ;
+    z-index: 1
+    
+	
+}
+.contenedor{
+    margin: 0 auto;
+    width: 5.8rem;
+}
+
+
