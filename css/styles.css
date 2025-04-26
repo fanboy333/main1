@@ -8,9 +8,11 @@ body {
 }
 
 img {
-    max-width: 20%;
+    max-width: 25%;
 }
+
 header{
+    background-image: url(/img/site-header-background.jpeg) ;
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -21,8 +23,146 @@ header{
 	
 }
 .contenedor{
-    margin: 0 auto;
-    width: 5.8rem;
+    margin: 5.8rem;
+    color: #053477;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.izquierda h2 {
+    font-size: 5rem;
+    color: #2A4B7A;
+    margin: 0;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+section img {
+    width: 200px;
+    height: 150px;
+    margin-right: 40px;
+}
+
+section div {
+    max-width: 400px;
+}
+
+h3 {
+    color: #f4731e;
+    font-size: 2.2rem;
+    margin: 0 0 10px 0;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #053477;
+    margin: 0;
+}
+
+.izquierda h2 {
+    font-size: 5rem;
+    color: #2A4B7A;
+    margin: 0;
+    line-height: 1.2;
+}
+/* Fondo general */
+.contacto-main {
+    background-color: #2A4B7A;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Información de contacto */
+.info-contacto h2 {
+    font-size: 5rem;
+    color: #F75F1C;
+}
+
+.info-contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-contacto li {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Formulario */
+.formu-contacto {
+    width: 400px;
+}
+
+.formuo-contacto legend {
+    font-size: 2.2rem;
+    color: #F75F1C;
+    margin-bottom: 20px;
+}
+
+.formu-contacto div {
+    margin-bottom: 15px;
+}
+
+/* Label */
+.formu-contacto label {
+    display: block;
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.formu-contacto input[type="text"],
+.formu-contacto select,
+.formu-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.formu-contacto textarea {
+    height: 20rem;
+}
+
+.formu-contacto input[type="submit"] {
+    color: #ffffff;
+    background-color: #E35619;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.formu-contacto input[type="submit"]:hover {
+    background-color: #c7480f;
 }
 
 
